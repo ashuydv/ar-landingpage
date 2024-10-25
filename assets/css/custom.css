@@ -74,6 +74,16 @@
   }
 }
 
+@font-face {
+  font-family: "festive-regular";
+  src: url("Festive-Regular.ttf") format("truetype");
+}
+
+.festive-regular {
+  font-family: "festive-regular";
+  font-weight: 400; /* Any value between 100-900 */
+}
+
 .yellow {
   color: #d39203;
 }
