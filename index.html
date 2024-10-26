@@ -83,45 +83,50 @@
     </header>
     <main>
       <section class="bg-black">
-        <div class="absolute w-screen opacity-50 z-0">
-          <iframe
-            width="100%"
-            src="https://lottie.host/embed/e5f8ecc1-3ff0-4b99-8e4b-df24b8dbf8bd/CITVFxawKb.json"
-          ></iframe>
-        </div>
-        <div
-          class="container sm:min-h-[240px] min-h-[100px] relative overflow-hidden mx-auto"
-        >
-          <div class="flex items-center justify-center flex-wrap">
+        <div id="desktop" class="sm:block hidden">
+          <div class="absolute w-screen opacity-50 z-0">
             <iframe
-              src="https://lottie.host/embed/aa67f2ec-1fff-42b8-8e48-7f07048f553b/YW1rF6dPLx.json"
+              width="100%"
+              src="https://lottie.host/embed/e5f8ecc1-3ff0-4b99-8e4b-df24b8dbf8bd/CITVFxawKb.json"
             ></iframe>
-            <div
-              class="text-white sm:text-[100px] text-[40px] festive-regular mt-10"
-            >
-              Happy Diwali
-            </div>
-            <div class="scale-x-[-1]">
-              <!-- Changed from rotate-[270deg] to rotate-[90deg] -->
+          </div>
+          <div
+            class="container sm:min-h-[240px] min-h-[100px] relative overflow-hidden mx-auto"
+          >
+            <div class="flex items-center justify-center flex-wrap">
               <iframe
                 src="https://lottie.host/embed/aa67f2ec-1fff-42b8-8e48-7f07048f553b/YW1rF6dPLx.json"
               ></iframe>
+              <div
+                class="text-white sm:text-[100px] text-[40px] festive-regular mt-10"
+              >
+                Happy Diwali
+              </div>
+              <div class="scale-x-[-1]">
+                <!-- Changed from rotate-[270deg] to rotate-[90deg] -->
+                <iframe
+                  src="https://lottie.host/embed/aa67f2ec-1fff-42b8-8e48-7f07048f553b/YW1rF6dPLx.json"
+                ></iframe>
+              </div>
             </div>
-          </div>
 
-          <!-- <div id="candle">
-            <img
-              src="assets/img/candles.png"
-              class="max-w-[600px] w-full absolute bottom-0 -left-4"
-              alt=""
-            />
-            <video
-              src="assets/img/Video.mp4"
-              autoplay="true"
-              class="absolute w-[200px] bottom-0 right-0"
-            ></video>
+            <!-- <div id="candle">
+              <img
+                src="assets/img/candles.png"
+                class="max-w-[600px] w-full absolute bottom-0 -left-4"
+                alt=""
+              />
+              <video
+                src="assets/img/Video.mp4"
+                autoplay="true"
+                class="absolute w-[200px] bottom-0 right-0"
+              ></video>
+            </div>
+             -->
           </div>
-           -->
+        </div>
+        <div id="mobile" class="sm:hidden block">
+          <video src="assets/img/diwali_mobile.mp4" autoplay></video>
         </div>
       </section>
       <!-- home -->
